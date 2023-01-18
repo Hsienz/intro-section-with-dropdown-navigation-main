@@ -55,8 +55,8 @@ const Nav = () => {
 				</div>
 
 				<div className="flex flex-col mt-4 gap-y-4">
-					<button className="py-2">Login</button>
-					<button className="border-2 border-Medium_Gray py-2 rounded-2xl">Register</button>
+					<button className="py-2 hover:text-Almost_Black transition-all">Login</button>
+					<button className="border-2 border-Medium_Gray py-2 rounded-2xl transition-all hover:text-Almost_Black hover:border-Almost_Black">Register</button>
 				</div>
 			</div>
 		</nav>

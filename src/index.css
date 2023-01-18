@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  img.img-AlmostBlack {
+    filter: invert(0%) sepia(8%) saturate(721%) hue-rotate(340deg) brightness(102%) contrast(84%);
+  }
+  img.img-Medium_Gray {
+    filter: invert(44%) sepia(0%) saturate(1499%) hue-rotate(166deg) brightness(94%) contrast(100%);
+  }
+}/*# sourceMappingURL=index.css.map */
