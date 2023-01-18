@@ -28,7 +28,7 @@ const NavElem = (props: NavElemType) => {
 			</span>
 
 			{props.child && open && (
-				<span className="flex flex-col gap-y-4 ml-8 mt-4">
+				<span className="flex flex-col gap-y-4 ml-8 mt-4 md:bg-Almost_White md:shadow-[0_0_30px_0px_hsl(0,0%,41%,0.5)] md:p-7 md:rounded-2xl md:absolute md:z-10">
 					{props.child.map((x, i) => (
 						<NavElem key={i} {...x} />
 					))}
